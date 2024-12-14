@@ -7,6 +7,11 @@ SPDX-License-Identifier: CC-BY-4.0
 
 A collection of bits and bobs used across multiple projects within Beta Five.
 
+This repository currently contains:
+
+- [kas](https://github.com/siemens/kas) configuration fragments for currently
+  supported Yocto Project releases and various MACHINEs.
+
 ## Maintainers
 
 Paul Barker \<paul@pbarker.dev\>
