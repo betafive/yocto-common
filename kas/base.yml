@@ -43,7 +43,5 @@ local_conf_header:
   simplify_build: |
     DISTRO_FEATURES:remove = "ptest"
     PACKAGECONFIG:remove:pn-qemu-system-native = "alsa epoxy virglrenderer"
-  oldest_kernel: |
-    OLDEST_KERNEL = "4.19"
   debug_tweaks: |
     EXTRA_IMAGE_FEATURES ?= "empty-root-password allow-empty-password allow-root-login"
